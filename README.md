@@ -179,33 +179,34 @@ bcryptjs for password encryption
 
 dotenv for environment variables
 
-📁 Project Structure
-Backend
-backend/
-│── controllers/AuthController.js
-│── models/
-|    |-Otp.js 
-|    |-User.js
-│── DB/db.js
-│── server.js
-│── .env
-Frontend
-Selection deleted
-frontend/
-│── src/
-│   │── components/
-│         ├── Navigation/Navigation.jsx
-│         ├── ProtectedRoute/ProtectedRoute.js
-│         |──UserDashboard/Dashboard.jsx
-│         ├── Login/Login.jsx
-│         ├──SignUp/Signup.jsx
-│         ├── Forget/ForgotPassword.jsx
-│         ├── About/About.jsx
-│         |── pages/├── Home.jsx
-│   
-│   
-│── .env
-│── vite.config.js
+<h2>📁 Project Structure</h2>
+<h4>Backend</h4>
+<h5>backend/</h5>
+<h5>│── controllers/AuthController.js</h5>
+<h5>│── models/</h5>
+<h5>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    |-Otp.js</h5> 
+<h5>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   |-User.js</h5>
+<h5>│── DB/db.js</h5>
+<h5>│── server.js</h5>
+<h5>│── .env</h5>
+
+<h2>Frontend</h2>
+<h4>Selection deleted</h4>
+<h5>frontend/</h5>
+<h5>│── src/</h5>
+<h5>│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   │── components/</h5>
+<h5>│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        ├── Navigation/Navigation.jsx</h5>
+<h5>│  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ├── ProtectedRoute/ProtectedRoute.js</h5>
+<h5>│  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       |──UserDashboard/Dashboard.jsx</h5>
+<h5>│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├── Login/Login.jsx</h5>
+<h5>│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ├──SignUp/Signup.jsx</h5>
+<h5>│  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ├── Forget/ForgotPassword.jsx</h5>
+<h5>│  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ├── About/About.jsx</h5>
+<h5>│  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       |── pages/├── Home.jsx</h5>
+<h5>│ </h5>  
+<h5>│</h5> 
+<h5>│── .env</h5>
+<h5>│── vite.config.js</h5>
 ⚙️ Tech Stack
 Frontend
 
