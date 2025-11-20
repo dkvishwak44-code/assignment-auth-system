@@ -65,21 +65,21 @@ dotenv
 
 <h3>Frontend</h3>
 
-frontend/
-│── src/
-│ │── components/
-│ ├── Navigation/Navigation.jsx
-│ ├── ProtectedRoute/ProtectedRoute.js
-│ |──UserDashboard/Dashboard.jsx
-│ ├── Login/Login.jsx
-│ ├──SignUp/Signup.jsx
-│ ├── Forget/ForgotPassword.jsx
-│ ├── About/About.jsx
-│ |── pages/├── Home.jsx
-│
-│
-│── .env
-│── vite.config.js
+<h4>frontend/</h4>
+<h5>│── src/</h5>
+<h5>│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; │── components/</h5>
+<h5>│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Navigation/Navigation.jsx</h5>
+<h5>│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── ProtectedRoute/ProtectedRoute.js</h5>
+<h5>│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|──UserDashboard/Dashboard.jsx</h5>
+<h5>│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Login/Login.jsx</h5>
+<h5>│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├──SignUp/Signup.jsx</h5>
+<h5>│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Forget/ForgotPassword.jsx</h5>
+<h5>│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── About/About.jsx</h5>
+<h5>│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |── pages/├── Home.jsx</h5>
+<h5>│</h5>
+<h5>│</h5>
+<h5>│── .env</h5>
+<h5>│── vite.config.js</h5>
 
 <h3>⚙️ Tech Stack</h3>
  <h4>Frontend</h4>
