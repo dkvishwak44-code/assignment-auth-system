@@ -1,4 +1,4 @@
-<h1>📌 Authentication System with OTP & User Dashboard<h1>
+<h1>📌 Authentication System with OTP & User Dashboard</h1>
 
 
 A full-stack authentication system built using React, TailwindCSS, Node.js, Express, and MongoDB, featuring secure OTP verification, JWT authentication, and a protected user dashboard.
