@@ -53,10 +53,10 @@ dotenv
  <h4>Backend</h4>
 <h5>backend/</h5>
 <h5>│── controllers/</h5>
-<h5>|── AuthController.js</h5>│     
+<h5>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|── AuthController.js</h5>│     
 <h5>│── models/</h5>
-<h5> &nbsp;&nbsp;&nbsp;    ├── Otp.js </h5>
-<h5> &nbsp;&nbsp;&nbsp;    │── User.js</h5>
+<h5>| &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;   ├── Otp.js </h5>
+<h5>| &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;   │── User.js</h5>
 <h5>│── DB/</h5>
 <h5>│     └── db.js</h5>
 <h5>│── server.js</h5>
