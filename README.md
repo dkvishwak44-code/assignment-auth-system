@@ -113,6 +113,181 @@ frontend/
 
 <li>JWT</li>
 
+<li>dotenv</li>
+</ul>
+<h3>🔑 Environment Variables</h3>
+<h5>Backend </h5> .env
+uri=your_mongodb_url
+JWT_SECRET=your_secret_key
+EMAIL_USER=your_email
+EMAIL_PASS=your_app_password
+PORT=http://localhost:5173
+OTP_EXPIRE_MIN = TIME
+
+<h5>Frontend</h5> .env
+VITE_API_URL=http://localhost:5000
+
+Project Readme
+📌 Authentication System with OTP & User Dashboard
+
+A full-stack authentication system built using React, TailwindCSS, Node.js, Express, and MongoDB, with secure OTP verification, JWT authentication, and a protected user dashboard.
+
+🚀 Features
+🔐 Authentication
+
+Signup with email OTP verification
+
+Login using email & password
+
+Forgot password with OTP verification
+
+Reset password securely
+
+JWT-based authentication
+
+Password encrypted with bcryptjs
+
+👤 User Dashboard
+
+Fetch user details
+
+Update user profile
+
+Protected pages with JWT token
+
+🌐 Frontend
+
+React + Vite
+
+TailwindCSS
+
+React Router DOM
+
+Axios for API calls
+
+🗄 Backend
+
+Express.js API
+
+MongoDB + Mongoose
+
+Nodemailer for sending OTP
+
+bcryptjs for password encryption
+
+dotenv for environment variables
+
+📁 Project Structure
+Backend
+backend/
+│── controllers/AuthController.js
+│── models/
+|    |-Otp.js 
+|    |-User.js
+│── DB/db.js
+│── server.js
+│── .env
+Frontend
+Selection deleted
+frontend/
+│── src/
+│   │── components/
+│         ├── Navigation/Navigation.jsx
+│         ├── ProtectedRoute/ProtectedRoute.js
+│         |──UserDashboard/Dashboard.jsx
+│         ├── Login/Login.jsx
+│         ├──SignUp/Signup.jsx
+│         ├── Forget/ForgotPassword.jsx
+│         ├── About/About.jsx
+│         |── pages/├── Home.jsx
+│   
+│   
+│── .env
+│── vite.config.js
+⚙️ Tech Stack
+Frontend
+
+React
+
+Vite
+
+TailwindCSS
+
+Axios
+
+React Router DOM
+
+Backend
+
+Node.js
+
+Express.js
+
+MongoDB
+
+Mongoose
+
+Nodemailer
+
+bcryptjs
+
+JWT
+
 dotenv
+
+🔑 Environment Variables
+Backend .env
+Selection deleted
+uri=your_mongodb_url
+JWT_SECRET=your_secret_key
+EMAIL_USER=your_email
+EMAIL_PASS=your_app_password
+PORT=http://localhost:5173
+OTP_EXPIRE_MIN = TIME
+Frontend .env
+VITE_API_URL=http://localhost:5000
+
+
+<h3>📡 API Endpoints</h3>
+<h4>Auth Routes</h4>
+Method	Endpoint	Description
+POST	/api/auth/signup	Signup + Send OTP
+POST	/api/auth/verify-signup-otp	Verify Signup OTP
+POST	/api/auth/login	Login
+POST	/api/auth/forgot-password	Send OTP for password reset
+POST	/api/auth/verify-forgot-otp	Verify OTP
+POST	/api/auth/reset-password	Reset password
+
+<h4>User Routes</h4>
+Method	Endpoint	Description
+GET	/api/user-data/:email	Get logged-in user info
+PUT	/api/update-user/:email	Update user info
+
+<h3>🛡 Security Features</h3>
+<ul>
+<li>Password encryption using bcryptjs</li>
+
+<li> Token-based authentication using JWT </li>
+
+ <li>OTP verification for sensitive actions</li>
+
+<li>Protected backend routes</li>
+
+<li>Secure environment variables using dotenv</li>
 </ul>
 
+<h2>🏗 How to Run the Project</h2>
+ <h3>Backend Setup</h3>
+cd server
+npm install
+npm install bcryptjs body-parser cors dotenv express jsonwebtoken mongoose nodemailer
+npm start
+
+<h2>Frontend Setup</h2>
+<h3Frontend Setup></h3>
+cd frontend
+npm install
+npm install react-toastify axios react-hook-form @mui/material @emotion/react @emotion/styled lucide-react react-router-dom  tailwindcss @tailwindcss/vite
+npm run dev
+
+ 
