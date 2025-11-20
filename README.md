@@ -55,8 +55,8 @@ dotenv
 <h5>│── controllers/</h5>
 <h5>|── AuthController.js</h5>│     
 <h5>│── models/</h5>
-<h5>     ├── Otp.js </h5>
-<h5>     │── User.js</h5>
+<h5> &nbsp;&nbsp;&nbsp;    ├── Otp.js </h5>
+<h5> &nbsp;&nbsp;&nbsp;    │── User.js</h5>
 <h5>│── DB/</h5>
 <h5>│     └── db.js</h5>
 <h5>│── server.js</h5>
