@@ -50,17 +50,17 @@ dotenv
 
 
 <h3>📁 Project Structure</h3>
-Backend
-backend/
-│── controllers/
-│     └── AuthController.js
-│── models/
-│     ├── Otp.js 
-│     └── User.js
-│── DB/
-│     └── db.js
-│── server.js
-│── .env
+ <h4>Backend</h4>
+<h5>backend/</h5>
+<h5>│── controllers/</h5>
+<h5>|── AuthController.js</h5>│     
+<h5>│── models/</h5>
+<h5>     ├── Otp.js </h5>
+<h5>     │── User.js</h5>
+<h5>│── DB/</h5>
+<h5>│     └── db.js</h5>
+<h5>│── server.js</h5>
+<h5>│── .env</h5>
 
 
 <h3>Frontend</h3>
