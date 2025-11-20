@@ -117,12 +117,14 @@ frontend/
 </ul>
 <h3>🔑 Environment Variables</h3>
 <h5>Backend </h5> .env
-uri=your_mongodb_url
-JWT_SECRET=your_secret_key
-EMAIL_USER=your_email
-EMAIL_PASS=your_app_password
-PORT=http://localhost:5173
-OTP_EXPIRE_MIN = TIME
+<ul>
+<li>uri=your_mongodb_url</li>
+<li>JWT_SECRET=your_secret_key</li>
+<li>EMAIL_USER=your_email</li>
+<li>EMAIL_PASS=your_app_password</li>
+<li>PORT=http://localhost:5173</li>
+<li>OTP_EXPIRE_MIN = TIME</li>
+</ul>
 
 <h5>Frontend</h5> .env
 VITE_API_URL=http://localhost:5000
